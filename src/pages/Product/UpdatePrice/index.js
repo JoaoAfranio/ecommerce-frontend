@@ -36,6 +36,11 @@ export default function UpdatePrice() {
     try {
       await updateProductPrice(formData);
       toast.success("Atualização feita com sucesso!");
+
+      setFile(null);
+      setFileName("");
+      setHasError(true);
+      setData();
     } catch (err) {
       console.log(err);
       toast.error("Ocorreu um erro ao atualizar");
