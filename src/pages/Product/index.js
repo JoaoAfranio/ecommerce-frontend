@@ -12,5 +12,8 @@ export default function Product() {
 const Container = styled.div`
   width: 100%;
   height: 100%;
+
+  display: flex;
+
   background-image: linear-gradient(to right, #ff9966, #ff5e62);
 `;
