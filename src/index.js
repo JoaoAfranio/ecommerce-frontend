@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
+import "react-toastify/dist/ReactToastify.css";
+
 import "./assets/css/reset.css";
 import "./assets/css/style.css";
 
